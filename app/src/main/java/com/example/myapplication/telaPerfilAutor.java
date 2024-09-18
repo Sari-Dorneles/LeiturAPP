@@ -20,15 +20,24 @@ public class telaPerfilAutor extends AppCompatActivity {
         TextView textAUTOR1 = findViewById(R.id.textAUTOR1);
         TextView textAUTOR2 = findViewById(R.id.textAUTOR2);
         TextView textBIOA = findViewById(R.id.textBIOA);
-        TextView textOBRAAUTOR = findViewById(R.id.textOBRAAUTOR);
+        TextView textOBRASA = findViewById(R.id.textOBRASA);
 
         ImageView imgGO = findViewById(R.id.imgGO);
 
         ImageButton imgOLHO1 = findViewById(R.id.imgOLHO1);
+
+        boolean controlebtn = true;
         imgOLHO1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textBIOA.setText("lOREM");
+                if(controlebtn == true){
+                    controlebtn = false;
+                    extBIOA.setText("lOREM IPSUN SAUNIEINEF");
+                    textBIOA.setVisibility(View.VISIBLE); // Tornando visível
+                }else if(controlebtn == false){
+                    controlebtn = true;
+                    textBIOA.setVisibility(View.INVISIBLE);
+                }
             }
         });
 
@@ -36,7 +45,8 @@ public class telaPerfilAutor extends AppCompatActivity {
         imgOLHO2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textOBRAAUTOR.setText("LOREM");
+                textOBRASA.setText("LOREM");
+                textOBRASA.setVisibility(View.VISIBLE); // Tornando visível
             }
         });
 
