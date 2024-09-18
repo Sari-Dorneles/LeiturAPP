@@ -20,14 +20,23 @@ public class telaPerfilAutor extends AppCompatActivity {
         TextView textAUTOR1 = findViewById(R.id.textAUTOR1);
         TextView textAUTOR2 = findViewById(R.id.textAUTOR2);
         TextView textBIOA = findViewById(R.id.textBIOA);
+        TextView textOBRAAUTOR = findViewById(R.id.textOBRAAUTOR);
 
         ImageView imgGO = findViewById(R.id.imgGO);
 
-        ImageButton imgbtnOLHO1 = findViewById(R.id.imgOLHO1);
-        imgbtnOLHO1.setOnClickListener(new View.OnClickListener() {
+        ImageButton imgOLHO1 = findViewById(R.id.imgOLHO1);
+        imgOLHO1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 textBIOA.setText("lOREM");
+            }
+        });
+
+        ImageButton imgOLHO2 = findViewById(R.id.imgOLHO2);
+        imgOLHO2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                textOBRAAUTOR.setText("LOREM");
             }
         });
 
