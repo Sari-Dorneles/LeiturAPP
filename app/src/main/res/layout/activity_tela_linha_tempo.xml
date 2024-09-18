@@ -7,4 +7,147 @@
     android:background="@color/fundo"
     tools:context=".telaLinhaTempo">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="-90"
+        android:scaleY="1.5"
+        app:srcCompat="@android:drawable/status_bar_item_app_background"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="-90"
+        android:scaleY="1.5"
+        app:srcCompat="@android:drawable/status_bar_item_app_background"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="-90"
+        android:scaleY="1.5"
+        app:srcCompat="@android:drawable/status_bar_item_app_background"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleY="8"
+        app:srcCompat="@android:drawable/status_bar_item_app_background"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="-90"
+        android:scaleY="1"
+        app:srcCompat="@android:drawable/status_bar_item_app_background"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="-90"
+        android:scaleY="1.5"
+        app:srcCompat="@android:drawable/status_bar_item_app_background"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="-90"
+        android:scaleY="1.5"
+        app:srcCompat="@android:drawable/status_bar_item_app_background"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="-90"
+        android:scaleY="1.5"
+        app:srcCompat="@android:drawable/status_bar_item_app_background"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <TextView
+        android:id="@+id/textLINHATEMPO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="1984?"
+        android:textColor="#D30A0A"
+        android:textSize="54sp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btnATO1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5C0148"
+        android:text="Ato1"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <Button
+        android:id="@+id/btnATO3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5C0148"
+        android:text="Ato3"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <Button
+        android:id="@+id/btnATO2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#209715"
+        android:text="Ato2"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#209715"
+        android:text="Ato4"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/btnATO6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#209715"
+        android:text="Ato6"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <Button
+        android:id="@+id/btnATO5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5C0148"
+        android:text="Ato5"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="406dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
