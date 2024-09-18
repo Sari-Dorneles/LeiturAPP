@@ -12,8 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView textAUTOR1 = findViewById(R.id.textAUTOR1);
-        TextView textAUTOR2 = findViewById(R.id.textAUTOR2);
+
 
     }
 }

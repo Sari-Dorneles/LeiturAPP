@@ -7,7 +7,7 @@
     android:background="@color/fundo"
     tools:context=".telaPerfilAutor">
 
-    <TextView
+     <TextView
         android:id="@+id/textAUTOR1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
         app:layout_constraintVertical_bias="0.161" />
 
     <ImageView
-        android:id="@+id/imgbtnOLHO2"
+        android:id="@+id/imgGO"
         android:layout_width="300dp"
         android:layout_height="250dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,7 +40,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.382"
+        app:layout_constraintVertical_bias="0.407"
         app:srcCompat="@drawable/georgeorwell" />
 
     <TextView
@@ -60,11 +60,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="OUTRAS OBRAS"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="564dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.893" />
 
     <ImageButton
-        android:id="@+id/imgbtnOLHO1"
+        android:id="@+id/imgOLHO1"
         android:layout_width="70dp"
         android:layout_height="100dp"
         android:background="none"
@@ -74,11 +78,11 @@
         app:layout_constraintHorizontal_bias="0.859"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.754"
+        app:layout_constraintVertical_bias="0.706"
         app:srcCompat="@drawable/olho_orwell" />
 
-    <ImageView
-        android:id="@+id/imgbtnOLHO2"
+    <ImageButton
+        android:id="@+id/imgOLHO2"
         android:layout_width="70dp"
         android:layout_height="100dp"
         android:background="none"
@@ -88,7 +92,33 @@
         app:layout_constraintHorizontal_bias="0.859"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.944"
+        app:layout_constraintVertical_bias="0.923"
         app:srcCompat="@drawable/olho_orwell" />
+
+    <TextView
+        android:id="@+id/textBIOA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.841"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.792" />
+
+    <TextView
+        android:id="@+id/textOBRASA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.841"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
