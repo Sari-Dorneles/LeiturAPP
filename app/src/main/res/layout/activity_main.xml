@@ -4,10 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    android:background="@color/white"
-    tools:context=".MainActivity"/>
-=======
     android:background="@color/fundo"
     tools:context=".MainActivity">
 
@@ -24,4 +20,3 @@
 
     
 </androidx.constraintlayout.widget.ConstraintLayout>
->>>>>>> e9dfca04e3f5a504d35655686e699daf59a58d41
