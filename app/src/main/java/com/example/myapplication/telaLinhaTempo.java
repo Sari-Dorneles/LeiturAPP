@@ -19,11 +19,12 @@ public class telaLinhaTempo extends AppCompatActivity {
         btnATO1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showPopup();
+                showPopup1();
             }
         });
     }
-    private void showPopup() {
+
+    private void showPopup1() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Título")
                 .setMessage("Olá, o Felipe é doido!")
