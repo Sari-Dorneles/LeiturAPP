@@ -57,6 +57,20 @@ public class telaLinhaTempo extends AppCompatActivity {
                 showPopup6();
             }
         });
+        Button btnATO7 = findViewById(R.id.btnATO7);
+        btnATO7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showPopup7();
+            }
+        });
+        Button btnATO8 = findViewById(R.id.btnATO8);
+        btnATO8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showPopup8();
+            }
+        });
     }
 
     private void showPopup1() {
@@ -138,6 +152,32 @@ public class telaLinhaTempo extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Ato 6: WINSTON E UMA CERTA MULHER")
                 .setMessage("Winston passa a se encontrar com Julia com certa dificuldade para não serem desmascarados pelo Partido. Eles ee questionaram sobre a ideia de se rebelar contra o partido, Winston comentou sobre a sensação de que o O’Brien os apoiaria.")
+                .setPositiveButton("Sair", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        dialog.dismiss();
+                    }
+                });
+
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+    private void showPopup7() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Ato 7: ALIANÇA")
+                .setMessage("Julia e Winston acreditaram em que O’Brien fazia parte de uma conspiração contra o Partido, e de certa forma estavam certos.")
+                .setPositiveButton("Sair", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        dialog.dismiss();
+                    }
+                });
+
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+    private void showPopup8() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Ato 8: SURPRESA")
+                .setMessage("Julia e Winston foram surpreendidos no quarto onde costumavam a se encontrar. Foram levados para a prisão a mandato de uma certa pessoa envolvida.")
                 .setPositiveButton("Sair", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         dialog.dismiss();
