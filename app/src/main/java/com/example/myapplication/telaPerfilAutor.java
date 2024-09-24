@@ -32,7 +32,6 @@ public class telaPerfilAutor extends AppCompatActivity {
             public void onClick(View view) {
                 if(controlebtn[0] == true){
                     controlebtn[0] = false;
-                    textBIOA.setText("lOREM IPSUN SAUNIEINEF");
                     textBIOA.setVisibility(View.VISIBLE); // Tornando visível
                 }else if(controlebtn[0] == false){
                     controlebtn[0] = true;
@@ -47,7 +46,6 @@ public class telaPerfilAutor extends AppCompatActivity {
             public void onClick(View view) {
                 if (controlebtn[0] == true) {
                     controlebtn[0] = false;
-                    textOBRASA.setText("LOREM");
                     textOBRASA.setVisibility(View.VISIBLE); // Tornando visível
                 } else if (controlebtn[0] == false) {
                     controlebtn[0] = true;
