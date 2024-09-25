@@ -1,5 +1,37 @@
 <resources>
 
     <string name="app_name">LeiturApp</string>
+    <string name="textBIOAstr">
+        \n
+        Eric Arthur Blair, mais conhecido pelo pseudônimo de George Orwell, foi um jornalista, escritor e ensaísta político inglês, nascido na índia Britânica.
+        \n
+        Sua obra é marcada por uma inteligência perspicaz e bem-humorada, uma consciência profunda das injustiças sociais, uma intensa oposição ao totalitarismo e uma paixão pela clareza da escrita.
+        \n
+        Considerando-o talvez o melhor cronista da cultura inglesa do século XX, Orwell dedicou-se a escrever resenhas, ficção, artigos jornalísticos polêmicos, críticas literárias e poesia.
+        \n
+        O início de sua carreira começou quando foi estudar em St. Cyprian’s School, em Eastbourne, e, a partir de 1917, em Eton, um famoso colégio britânico. Em 1922, começou a trabalhar na Polícia Imperial Indiana, mas, em 1927, abandonou o emprego para cultivar a literatura. No ano seguinte, foi para Paris, onde viveu cerca de um ano e meio, então no ano de 1933, publicou seu primeiro livro — Na pior em Paris e Londres. No fim de 1934, começou a trabalhar em uma livraria no bairro Hampstead, em Londres. Nessa cidade, ele conheceu Eileen O’Shaughnessy, com quem se casou. Em 1936, decidiu viver com os mineiros da cidade de Wigan para a escrita de sua obra, publicada no ano seguinte - A caminho de Wigan. No final de 1937, foi para a Espanha e lutou, durante seis meses, na Guerra Civil Espanhola, ao lado dos republicanos e contra o ditador Francisco Franco.
+        \n
+        A obra mais famosa de Orwell, que seria o romance 1984, só foi publicada em 1949. No entanto, o autor não pôde presenciar o grande sucesso do seu livro nos anos que seguiram à sua publicação. Devido à tuberculose, o romancista morreu em 21 de janeiro de 1950, em Londres, logo depois de se casar com Sonia Brownell.
+    </string>
 
+    <string name="textOBRAstr">
+        \n
+        Na pior em Paris e Londres (1933)
+        \n
+        Dias na Birmânia (1934)
+        \n
+        A filha do reverendo (1935)
+        \n
+        Mantenha o sistema (1936)
+        \n
+        A caminho de Wigan (1937)
+        \n
+        Lutando na Espanha (1938)
+        \n
+        Um pouco de ar, por favor! (1939)
+        \n
+        A revolução dos bichos (1945)
+        \n
+        1984 (1949)
+    </string>
 </resources>

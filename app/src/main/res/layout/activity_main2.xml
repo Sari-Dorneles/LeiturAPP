@@ -23,4 +23,5 @@
         android:text="Linha do Tempo"
         app:layout_constraintTop_toBottomOf="@+id/btnAutor"
         tools:layout_editor_absoluteX="94dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
