@@ -136,7 +136,7 @@
         android:id="@+id/textLINK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LINK"
+        android:text="CLIQUE AQUI PARA ACESSAR O ARTIGO DE OPINIÃO"
         android:textColor="@color/white"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"

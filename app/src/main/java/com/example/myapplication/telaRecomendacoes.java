@@ -2,6 +2,8 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -25,7 +27,17 @@ public class telaRecomendacoes extends AppCompatActivity {
         TextView textJOGO3 = findViewById(R.id.textJOGO2);
         ImageView imgARTIGO = findViewById(R.id.imgARTIGO);
 
+        TextView textLINK = findViewById(R.id.textLINK);
+        textLINK.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Uri uri = Uri.parse("https://www.bbc.com/portuguese/articles/c4n405de6lno");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
 
+
+            }
+        });
 
     }
 }
