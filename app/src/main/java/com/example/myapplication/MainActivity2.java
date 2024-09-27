@@ -32,5 +32,14 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(linha);
             }
         });
+
+        Button btnRECO = findViewById(R.id.btnRECO);
+        btnRECO.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent reco = new Intent(getApplicationContext(), telaRecomendacoes.class);
+                startActivity(reco);
+            }
+        });
     }
 }
