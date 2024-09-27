@@ -7,17 +7,68 @@
     android:background="@color/fundo"
     tools:context=".telaPerfilPersonagens">
 
-    <TextView
-        android:id="@+id/Titulo_telaPersonagens"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Personagens"
-        android:textColor="@color/titulos"
-        android:textSize="50dp"
+    <ScrollView
+
+        android:layout_width="404dp"
+        android:layout_height="728dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.082" />
+        app:layout_constraintVertical_bias="1.0">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/Titulo_telaPersonagens"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Personagens"
+                    android:textColor="@color/titulos"
+                    android:textSize="50dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="25dp"
+                android:background="@color/black">
+
+
+                <ImageView
+                    android:id="@+id/imgWINSTON"
+                    android:layout_width="169dp"
+                    android:layout_height="140dp"
+                    android:layout_marginRight="190dp"
+                   
+                    android:src="@tools:sample/avatars"
+                    app:srcCompat="@drawable/winston" />
+
+                <TextView
+                    android:id="@+id/textWINSTON"
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:text="Winston Smith" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
