@@ -16,74 +16,84 @@
             android:layout_height="wrap_content">
 
             <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_span="1">
+                android:layout_width="372dp"
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:id="@+id/textRECO"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
                     android:fontFamily="@font/jetbrains_mono_bold"
+                    android:gravity="center_horizontal"
                     android:text="RECOMENDAÇÕES"
                     android:textColor="#DB2CB4"
-                    android:textSize="40dp" />
+                    android:textSize="50dp" />
             </TableRow>
 
             <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_column="1"
-                android:layout_weight="1"
-                android:layout_widht="fill_parent">
+                android:layout_width="200dp"
+                android:layout_height="194dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="start"
+                android:layout_margin="15dp"
+                android:background="#101010">
 
 
                 <ImageView
                     android:id="@+id/imgFILME"
-                    android:layout_width="200dp"
-                    android:layout_height="250dp"
-                    android:layout_marginRight="500dp"
-                    android:layout_span="1"
+                    android:layout_width="191dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="2000dp"
                     android:gravity="center_horizontal"
                     app:srcCompat="@drawable/filme_george" />
 
                 <TextView
-                    android:id="@+id/textFILME2"
-                    android:layout_height="wrap_content"
-                    android:layout_widht="match_parent"
+
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="30dp"
                     android:fontFamily="@font/jetbrains_mono_bold"
+                    android:paddingRight="200dp"
                     android:text="Filme: 1984"
-                    android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="#DB2CB4"
                     android:textSize="20dp" />
 
                 <TextView
-                    android:id="@+id/textFILME3"
-                    android:layout_height="wrap_content"
-                    android:layout_widht="match_parent"
-                    android:scaleType="fitCenter"
-                    android:text="SINOPSE SINOPSE SINOPSE "
-                    android:textColor="@color/white"
-                    android:textSize="15dp" />
+                    android:layout_width="0dp"
+                    android:layout_height="52dp"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginLeft="24dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/jetbrains_mono_bold"
+                    android:text="Filme: 1984"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp" />
 
             </TableRow>
 
             <TableRow
-                android:layout_widht="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_width="203dp"
+                android:layout_height="395dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="start"
+                android:layout_margin="15dp"
+                android:background="#101010">
 
                 <ImageView
                     android:id="@+id/imgJOGO"
                     android:layout_width="200dp"
-                    android:layout_height="250dp"
-                    android:layout_widht="match_parent"
-                    android:layout_span="2"
-                    android:layout_marginRight="500dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="2000dp"
+                    android:gravity="center_horizontal"
                     app:srcCompat="@drawable/jogo_george" />
 
                 <TextView
                     android:id="@+id/textJOGO"
-                    android:layout_widht="match_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/jetbrains_mono_bold"
                     android:text="Jogo: O Grande Irmão chegou — e é você"
@@ -93,7 +103,7 @@
 
                 <TextView
                     android:id="@+id/textJOGO2"
-                    android:layout_widht="match_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="texto texto texto"
                     android:textColor="@color/white"
@@ -101,20 +111,24 @@
             </TableRow>
 
             <TableRow
-                android:layout_widht="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="start"
+                android:layout_margin="15dp"
+                android:background="#101010"
                 >
 
                 <ImageView
                     android:id="@+id/imgARTIGO"
-                    android:layout_widht="200dp"
-                    android:layout_height="250dp"
-                    app:srcCompat="@drawable/artigo"
-                    android:layout_marginRight="600dp"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="2000dp"
+                    android:gravity="center_horizontal" />
 
                 <TextView
                     android:id="@+id/textARTIGO"
-                    android:layout_widht="match_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="148dp"
                     android:fontFamily="@font/jetbrains_mono_bold"
@@ -124,7 +138,7 @@
 
                 <TextView
                     android:id="@+id/textLINK"
-                    android:layout_widht="match_parent"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="CLIQUE AQUI PARA ACESSAR O ARTIGO DE OPINIÃO"
                     android:textColor="@color/white"
