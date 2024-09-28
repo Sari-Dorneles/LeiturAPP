@@ -31,21 +31,25 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/Titulo_telaPersonagens"
-                    android:layout_marginBottom="15dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/jetbrains_mono_bold"
+                    android:gravity="center_horizontal"
                     android:text="Personagens"
-                    android:textColor="@color/titulos"
+                    android:textColor="#DB2CB4"
                     android:textSize="50dp" />
 
             </TableRow>
 
             <TableRow
+                android:layout_weight="1"
+                android:layout_span="1"
+                android:layout_margin="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:padding="25dp"
-                android:background="@color/black">
+                android:background="#101010"
+                android:padding="25dp">
 
 
                 <ImageView
@@ -53,7 +57,7 @@
                     android:layout_width="169dp"
                     android:layout_height="140dp"
                     android:layout_marginRight="190dp"
-                   
+
                     android:src="@tools:sample/avatars"
                     app:srcCompat="@drawable/winston" />
 
@@ -62,7 +66,7 @@
                     android:layout_width="110dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
-                    android:padding="10dp"
+                    android:paddingRight="400dp"
                     android:text="Winston Smith" />
 
                 <TextView
