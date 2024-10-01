@@ -52,15 +52,6 @@
                 android:padding="25dp">
 
 
-                <ImageView
-                    android:id="@+id/imgWINSTON"
-                    android:layout_width="169dp"
-                    android:layout_height="140dp"
-                    android:layout_marginRight="190dp"
-
-                    android:src="@tools:sample/avatars"
-                    app:srcCompat="@drawable/winston" />
-
                 <TextView
                     android:id="@+id/textWINSTON"
                     android:layout_width="110dp"
