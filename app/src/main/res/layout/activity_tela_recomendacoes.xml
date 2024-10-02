@@ -60,7 +60,7 @@
                             android:fontFamily="@font/jetbrains_mono_bold"
                             android:text="Filme: 1984"
                             android:textColor="#DB2CB4"
-                            android:textSize="30dp" />
+                            android:textSize="25dp" />
 
                         <TextView
                             android:id="@+id/textView3"
@@ -103,7 +103,7 @@
                         android:fontFamily="@font/jetbrains_mono_bold"
                         android:text="Jogo:O Grande Irmão chegou — e é você."
                         android:textColor="#DB2CB4"
-                        android:textSize="30dp" />
+                        android:textSize="25dp" />
 
                     <TextView
                         android:id="@+id/textView4"
@@ -145,7 +145,7 @@
                             android:fontFamily="@font/jetbrains_mono_bold"
                             android:text=" George Orwell, 120 anos: por que 1984 continua tão relevante e atual?  "
                             android:textColor="#DB2CB4"
-                            android:textSize="30dp" />
+                            android:textSize="25dp" />
 
                         <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
