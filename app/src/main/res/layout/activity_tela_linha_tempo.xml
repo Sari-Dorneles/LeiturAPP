@@ -71,12 +71,12 @@
         android:id="@+id/linha4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleY="10"
+        android:scaleY="8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.595"
+        app:layout_constraintVertical_bias="0.563"
         app:srcCompat="@android:drawable/status_bar_item_app_background" />
 
     <ImageView
@@ -92,7 +92,7 @@
         app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.449"
+        app:layout_constraintVertical_bias="0.81"
         app:srcCompat="@android:drawable/status_bar_item_app_background" />
 
     <ImageView
@@ -147,10 +147,10 @@
         android:scaleY="1.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.809"
+        app:layout_constraintVertical_bias="0.813"
         app:srcCompat="@android:drawable/status_bar_item_app_background" />
 
     <TextView
@@ -164,117 +164,130 @@
         android:textSize="55sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnATO1"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
+        android:layout_width="112dp"
+        android:layout_height="55dp"
         android:layout_marginEnd="260dp"
         android:layout_marginBottom="390dp"
         android:backgroundTint="#5C0148"
-        android:text="Ato1"
+        android:text="SEMANA DO ÓDIO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.471" />
+        app:layout_constraintVertical_bias="0.598" />
 
     <Button
         android:id="@+id/btnATO3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="112dp"
+        android:layout_height="55dp"
         android:layout_marginTop="65dp"
         android:layout_marginEnd="260dp"
         android:backgroundTint="#5C0148"
-        android:text="Ato3"
+        android:text="MINISTÉRIOS"
+        android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.343" />
+        app:layout_constraintVertical_bias="0.339" />
 
     <Button
         android:id="@+id/btnATO2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="112dp"
+        android:layout_height="55dp"
         android:layout_marginStart="260dp"
         android:layout_marginBottom="255dp"
         android:backgroundTint="#209715"
-        android:text="Ato2"
+        android:text="TELETELAS"
+        android:textSize="11sp"
         app:circularflow_defaultAngle="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.516" />
+        app:layout_constraintVertical_bias="0.475" />
 
     <Button
         android:id="@+id/btnATO4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="112dp"
+        android:layout_height="55dp"
         android:layout_marginStart="260dp"
         android:backgroundTint="#209715"
-        android:text="Ato4"
+        android:text="DOIS MINUTOS DE ÓDIO DIÁRIOS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501" />
 
     <Button
         android:id="@+id/btnATO6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="112dp"
+        android:layout_height="55dp"
         android:layout_marginStart="260dp"
         android:layout_marginTop="255dp"
         android:backgroundTint="#209715"
-        android:text="Ato6"
+        android:text="UMA CERTA MULHER"
+        android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464" />
 
     <Button
         android:id="@+id/btnATO5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="112dp"
+        android:layout_height="55dp"
         android:layout_marginTop="130dp"
         android:layout_marginEnd="260dp"
         android:backgroundTint="#5C0148"
-        android:text="Ato5"
+        android:text="POLÍCIA DAS IDEIAS"
+        android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478" />
 
     <Button
         android:id="@+id/btnATO8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="112dp"
+        android:layout_height="55dp"
         android:backgroundTint="#209715"
-        android:text="Ato8"
+        android:text="SURPRESA"
+        android:textSize="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintHorizontal_bias="0.869"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.897" />
+        app:layout_constraintVertical_bias="0.9" />
 
     <Button
         android:id="@+id/btnATO7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="112dp"
+        android:layout_height="55dp"
         android:backgroundTint="#5C0148"
-        android:text="Ato7"
+        android:text="ALIANÇA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintVertical_bias="0.811" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
