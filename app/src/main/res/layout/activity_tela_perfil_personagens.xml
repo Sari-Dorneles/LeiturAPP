@@ -11,6 +11,7 @@
 
     <ScrollView
 
+        android:id="@+id/ScrollView2"
         android:layout_width="409dp"
         android:layout_height="657dp"
         android:layout_marginStart="1dp"
@@ -23,48 +24,52 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TableLayout
+            android:id="@+id/TableLayoutP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <TableRow
+                android:id="@+id/tablerowP1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent" >
 
                 <TextView
+                    android:id="@+id/textTITULOP"
                     android:layout_width="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/jetbrains_mono_bold"
-                    android:gravity="center_horizontal"
-                    android:text="Personagens"
-                    android:textColor="#DB2CB4"
-                    android:textSize="50dp" />
-
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
             </TableRow>
 
             <TableRow
-                android:layout_weight="1"
-                android:layout_span="1"
-                android:layout_margin="15dp"
+                android:id="@+id/tablerowP2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:layout_span="1"
+                android:layout_weight="1"
                 android:background="#101010"
                 android:padding="25dp">
 
 
+<<<<<<< HEAD
+                <ImageView
+                    android:id="@+id/imgWINSTON1"
+                    android:layout_width="169dp"
+                    android:layout_height="140dp"
+                    android:layout_marginRight="190dp"
+
+                    android:src="@tools:sample/avatars"
+                    app:srcCompat="@drawable/winston" />
+
+=======
+>>>>>>> 4bfb5844828c8a798a977c3615f6303a870a44a8
                 <TextView
                     android:id="@+id/textWINSTON"
                     android:layout_width="110dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
                     android:paddingRight="400dp"
-                    android:text="Winston Smith" />
-
-                <TextView
-                    android:id="@+id/textView4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="AAAAAAAAAA" />
 
 
             </TableRow>
