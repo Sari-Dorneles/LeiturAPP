@@ -24,52 +24,32 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TableLayout
-            android:id="@+id/TableLayoutP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <TableRow
-                android:id="@+id/tablerowP1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+        <TableRow
+            android:id="@+id/tabletitulo"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content">
 
-                <TextView
-                    android:id="@+id/textTITULOP"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="TextView" />
-            </TableRow>
-
-            <TableRow
-                android:id="@+id/tablerowP2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="15dp"
-                android:layout_span="1"
+            <TextView
+                android:id="@+id/textPERSO"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
                 android:layout_weight="1"
-                android:background="#101010"
-                android:padding="25dp">
-
-
-                <ImageView
-                    android:id="@+id/imgWINSTON1"
-                    android:layout_width="169dp"
-                    android:layout_height="140dp"
-                    android:layout_marginRight="190dp"
-
-                    android:src="@tools:sample/avatars"
-                    app:srcCompat="@drawable/winston" />
-
-                <TextView
-                    android:id="@+id/textWINSTON"
-                    android:layout_width="110dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
-                    android:paddingRight="400dp"
-                    android:text="AAAAAAAAAA" />
-
-
-            </TableRow>
+                android:fontFamily="@font/jetbrains_mono_bold"
+                android:gravity="center_horizontal"
+                android:text="PERSONAGENS"
+                android:textColor="#DB2CB4"
+                android:textSize="50dp" />
+        </TableRow>
+            <TableRow
+                android:id="@+id/table1"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/black"
+                android:gravity="center_horizontal"/>
         </TableLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
