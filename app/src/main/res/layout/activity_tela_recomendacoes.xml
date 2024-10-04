@@ -53,7 +53,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/TituloFILME"
+                            android:id="@+id/textFILME"
                             android:layout_width="250dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
@@ -63,14 +63,14 @@
                             android:textSize="25dp" />
 
                         <TextView
-                            android:id="@+id/textView3"
+                            android:id="@+id/textFILME2"
                             android:layout_width="250dp"
                             android:layout_height="wrap_content"
                             android:text="O filme retrata uma sociedade governada por um Estado Totalitário, que controla completamente os âmbitos sociais, a história e o passado de seu povo, também desenvolve um novo idioma. Além disso, os sujeitos que se opõem ao regime, são torturados e expostos a lavagem cerebral. " />
                     </LinearLayout>
 
                     <ImageView
-                        android:id="@+id/imageView"
+                        android:id="@+id/imgFILME"
                         android:layout_width="150dp"
                         android:layout_height="210dp"
                         app:srcCompat="@drawable/filme_george" />
@@ -96,7 +96,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/TituloJOGO"
+                        android:id="@+id/textJOGO"
                         android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
@@ -106,14 +106,14 @@
                         android:textSize="25dp" />
 
                     <TextView
-                        android:id="@+id/textView4"
+                        android:id="@+id/textJOGO2"
                         android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:text="Investigue a vida de cidadãos para encontrar o responsável por uma série de ataques terroristas. Mas fique sabendo: as informações que você fornece têm consequências... " />
                 </LinearLayout>
 
                 <ImageView
-                    android:id="@+id/imageView2"
+                    android:id="@+id/imgJOGO"
                     android:layout_width="150dp"
                     android:layout_height="210dp"
                     app:srcCompat="@drawable/jogo_george" />
@@ -138,7 +138,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/TituloARTIGO"
+                            android:id="@+id/textARTIGO"
                             android:layout_width="250dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
@@ -152,15 +152,16 @@
                             android:layout_height="match_parent">
 
                             <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/textLINK"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:hint="https://www.bbc.com/portuguese/articles/c4n405de6lno " />
+                                android:hint="CLIQUE AQUI PARA ACESSAR O ARTIGO" />
                         </com.google.android.material.textfield.TextInputLayout>
 
                     </LinearLayout>
 
                     <ImageView
-                        android:id="@+id/imageView3"
+                        android:id="@+id/imgARTIGO"
                         android:layout_width="wrap_content"
                         android:layout_height="210dp"
                         app:srcCompat="@drawable/artigo" />
