@@ -117,6 +117,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="24dp"
+                    android:textColor="@color/white"
                     android:fontFamily="@font/jetbrains_mono_bold"
                     android:text="TextView"
                     android:visibility="invisible" />
@@ -138,7 +139,7 @@
                     android:layout_weight="1"
                     android:fontFamily="@font/jetbrains_mono_bold"
                     android:text="OUTRAS OBRAS"
-                    android:textColor="#FFFFFF"
+                    android:textColor="@color/white"
                     android:textSize="30dp" />
 
                 <ImageButton
@@ -165,6 +166,7 @@
                     android:layout_marginLeft="24dp"
                     android:fontFamily="@font/jetbrains_mono_bold"
                     android:text="TextView"
+                    android:textColor="@color/white"
                     android:visibility="invisible" />
             </TableRow>
         </TableLayout>
