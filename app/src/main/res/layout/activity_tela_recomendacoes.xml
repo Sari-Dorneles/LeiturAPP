@@ -60,17 +60,24 @@
                             android:fontFamily="@font/jetbrains_mono_bold"
                             android:text="Filme: 1984"
                             android:textColor="#DB2CB4"
-                            android:textSize="25dp" />
+                            android:textSize="20dp" />
 
                         <TextView
                             android:id="@+id/textFILME2"
+                            android:fontFamily="@font/jetbrains_mono_bold"
                             android:layout_width="250dp"
+                            android:textSize="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:textColor="@color/white"
                             android:layout_height="wrap_content"
                             android:text="O filme retrata uma sociedade governada por um Estado Totalitário, que controla completamente os âmbitos sociais, a história e o passado de seu povo, também desenvolve um novo idioma. Além disso, os sujeitos que se opõem ao regime, são torturados e expostos a lavagem cerebral. " />
                     </LinearLayout>
 
                     <ImageView
                         android:id="@+id/imgFILME"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
                         android:layout_width="150dp"
                         android:layout_height="210dp"
                         app:srcCompat="@drawable/filme_george" />
@@ -103,17 +110,24 @@
                         android:fontFamily="@font/jetbrains_mono_bold"
                         android:text="Jogo:O Grande Irmão chegou — e é você."
                         android:textColor="#DB2CB4"
-                        android:textSize="25dp" />
+                        android:textSize="20dp" />
 
                     <TextView
                         android:id="@+id/textJOGO2"
                         android:layout_width="250dp"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        android:fontFamily="@font/jetbrains_mono_bold"
+                        android:textColor="@color/white"
                         android:layout_height="wrap_content"
                         android:text="Investigue a vida de cidadãos para encontrar o responsável por uma série de ataques terroristas. Mas fique sabendo: as informações que você fornece têm consequências... " />
                 </LinearLayout>
 
                 <ImageView
                     android:id="@+id/imgJOGO"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
                     android:layout_width="150dp"
                     android:layout_height="210dp"
                     app:srcCompat="@drawable/jogo_george" />
@@ -143,9 +157,9 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
                             android:fontFamily="@font/jetbrains_mono_bold"
-                            android:text=" George Orwell, 120 anos: por que 1984 continua tão relevante e atual?  "
+                            android:text="George Orwell, 120 anos: por que 1984 continua tão relevante e atual?  "
                             android:textColor="#DB2CB4"
-                            android:textSize="25dp" />
+                            android:textSize="20dp" />
 
                         <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
@@ -154,14 +168,19 @@
                             <com.google.android.material.textfield.TextInputEditText
                                 android:id="@+id/textLINK"
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:hint="CLIQUE AQUI PARA ACESSAR O ARTIGO" />
+                                android:layout_height="70dp"
+                                android:textColorLink="@color/white"
+                                android:fontFamily="@font/jetbrains_mono_bold"
+                                android:hint="CLIQUE AQUI"
+                                android:textSize="15dp" />
                         </com.google.android.material.textfield.TextInputLayout>
 
                     </LinearLayout>
 
                     <ImageView
                         android:id="@+id/imgARTIGO"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="20dp"
                         android:layout_width="wrap_content"
                         android:layout_height="210dp"
                         app:srcCompat="@drawable/artigo" />
