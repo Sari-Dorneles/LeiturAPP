@@ -10,46 +10,119 @@
     tools:context=".telaPerfilPersonagens">
 
     <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-196dp"
+        tools:layout_editor_absoluteY="82dp">
 
-        android:id="@+id/ScrollView2"
-        android:layout_width="409dp"
-        android:layout_height="657dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+    <TableRow
+        android:id="@+id/tabletitulo"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textPERSO"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/jetbrains_mono_bold"
+            android:gravity="center_horizontal"
+            android:text="PERSONAGENS"
+            android:textColor="#DB2CB4"
+            android:textSize="50dp" />
+    </TableRow>
 
         <TableRow
-            android:id="@+id/tabletitulo"
-            android:layout_width="372dp"
-            android:layout_height="wrap_content">
+            android:id="@+id/table1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/black"
+            android:gravity="center_horizontal">
 
-            <TextView
-                android:id="@+id/textPERSO"
-                android:layout_width="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_weight="1"
-                android:fontFamily="@font/jetbrains_mono_bold"
-                android:gravity="center_horizontal"
-                android:text="PERSONAGENS"
-                android:textColor="#DB2CB4"
-                android:textSize="50dp" />
-        </TableRow>
             <TableRow
-                android:id="@+id/table1"
-                android:layout_width="300dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="20dp"
-                android:background="@color/black"
-                android:gravity="center_horizontal"/>
-        </TableLayout>
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/TituloPERSO1"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/jetbrains_mono_bold"
+                        android:text="WINSTON"
+                        android:textColor="#DB2CB4"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="É um homem de meia idade com aparência abatida. Cansado de sua rotina desgastante trabalhando para o partido, decide se rebelar do seu próprio jeito, primeiro começa a escrever um diário, comprar antiguidades e se afundar na luxúria com Júlia. Winston é um homem fraco, com dores nas costas, usava óculos e tinha desejos sexuais fortes reprimidos pelo partido, ele queria acreditar que seria parte de algo maior, por isso sente que precisa se rebelar contra o partido." />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="150dp"
+                    android:layout_height="270dp"
+                    app:srcCompat="@drawable/winston" />
+            </TableRow>
+        </TableRow>
+        <TableRow
+            android:id="@+id/table2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/black"
+            android:gravity="center_horizontal">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/TituloPERSO2"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/jetbrains_mono_bold"
+                        android:text="JULIA"
+                        android:textColor="#DB2CB4"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="É uma jovem ruiva, com sardas no rosto e com um corpo de biotipo que chamava a atenção dos membros do partido. Acostumada a ignorar e se favorecer do sistema, Júlia se apaixona por Winston e sua nasce a vontade de se rebelar contra o partido. Ela é uma mulher esperta e sabe quando pode sair da linha e quando deve se portar bem. " />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="270dp"
+                    app:srcCompat="@drawable/julia_png" />
+
+            </TableRow>
+        </TableRow>
+    </TableLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
