@@ -8,10 +8,10 @@
     tools:context=".telaLinhaTempo">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imgOLHOlinha"
         android:layout_width="221dp"
         android:layout_height="497dp"
-        android:tint="#504E4E"
+        app:tint="#504E4E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,14 +57,14 @@
         android:scaleY="1.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.679"
+        app:layout_constraintHorizontal_bias="0.686"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.691"
+        app:layout_constraintVertical_bias="0.692"
         app:srcCompat="@android:drawable/status_bar_item_app_background" />
 
     <ImageView
-        android:id="@+id/linha3"
+        android:id="@+id/linha4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="37dp"
@@ -72,14 +72,14 @@
         android:scaleY="1.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.679"
+        app:layout_constraintHorizontal_bias="0.692"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.905"
+        app:layout_constraintVertical_bias="0.907"
         app:srcCompat="@android:drawable/status_bar_item_app_background" />
 
     <ImageView
-        android:id="@+id/linha4"
+        android:id="@+id/linha5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleY="8"
@@ -91,7 +91,7 @@
         app:srcCompat="@android:drawable/status_bar_item_app_background" />
 
     <ImageView
-        android:id="@+id/linha5"
+        android:id="@+id/linha6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="14dp"
@@ -100,14 +100,14 @@
         android:scaleY="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.81"
+        app:layout_constraintVertical_bias="0.722"
         app:srcCompat="@android:drawable/status_bar_item_app_background" />
 
     <ImageView
-        android:id="@+id/linha6"
+        android:id="@+id/linha7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="95dp"
@@ -116,24 +116,10 @@
         android:scaleY="1.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.234"
-        app:srcCompat="@android:drawable/status_bar_item_app_background" />
-
-    <ImageView
-        android:id="@+id/linha7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:rotation="-90"
-        android:scaleY="1.5"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.384"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.403"
+        app:layout_constraintVertical_bias="0.265"
         app:srcCompat="@android:drawable/status_bar_item_app_background" />
 
     <ImageView
@@ -144,21 +130,35 @@
         android:scaleY="1.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintHorizontal_bias="0.373"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.595"
+        app:layout_constraintVertical_bias="0.399"
         app:srcCompat="@android:drawable/status_bar_item_app_background" />
 
     <ImageView
-        android:id="@+id/linha8"
+        android:id="@+id/linha9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:rotation="-90"
         android:scaleY="1.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592"
+        app:srcCompat="@android:drawable/status_bar_item_app_background" />
+
+    <ImageView
+        android:id="@+id/linha10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="-90"
+        android:scaleY="1.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.373"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.813"
@@ -191,10 +191,10 @@
         android:text="SEMANA DO ÓDIO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.598" />
+        app:layout_constraintVertical_bias="0.588" />
 
     <Button
         android:id="@+id/btnATO3"
@@ -227,7 +227,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.475" />
+        app:layout_constraintVertical_bias="0.527" />
 
     <Button
         android:id="@+id/btnATO4"
@@ -254,10 +254,10 @@
         android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.464" />
+        app:layout_constraintVertical_bias="0.502" />
 
     <Button
         android:id="@+id/btnATO5"
@@ -270,10 +270,10 @@
         android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.478" />
+        app:layout_constraintVertical_bias="0.487" />
 
     <Button
         android:id="@+id/btnATO8"
@@ -284,10 +284,10 @@
         android:textSize="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintHorizontal_bias="0.86"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9" />
+        app:layout_constraintVertical_bias="0.899" />
 
     <Button
         android:id="@+id/btnATO7"
