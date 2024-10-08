@@ -65,21 +65,24 @@
 
                         <TextView
                             android:id="@+id/textFILME2"
-                            android:fontFamily="@font/jetbrains_mono_bold"
-                            android:layout_width="250dp"
+                            android:layout_width="238dp"
+                            android:layout_height="171dp"
                             android:layout_marginLeft="10dp"
-                            android:textSize="13dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/jetbrains_mono_bold"
+                            android:justificationMode="inter_word"
+                            android:text="O filme retrata uma sociedade governada por um Estado Totalitário, que controla completamente os âmbitos sociais, a história e o passado de seu povo, também desenvolve um novo idioma. Além disso, os sujeitos que se opõem ao regime, são torturados e expostos a lavagem cerebral. "
                             android:textColor="@color/white"
-                            android:layout_height="wrap_content"
-                            android:text="O filme retrata uma sociedade governada por um Estado Totalitário, que controla completamente os âmbitos sociais, a história e o passado de seu povo, também desenvolve um novo idioma. Além disso, os sujeitos que se opõem ao regime, são torturados e expostos a lavagem cerebral. " />
+                            android:textSize="12dp" />
                     </LinearLayout>
 
                     <ImageView
                         android:id="@+id/imgFILME"
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="20dp"
+                        android:padding="7dp"
+                        android:layout_marginRight="10dp"
                         android:layout_width="150dp"
                         android:layout_height="210dp"
                         app:srcCompat="@drawable/filme_george" />
@@ -117,19 +120,22 @@
 
                     <TextView
                         android:id="@+id/textJOGO2"
-                        android:layout_width="250dp"
-                        android:textSize="13dp"
+                        android:layout_width="238dp"
+                        android:layout_height="171dp"
+                        android:justificationMode="inter_word"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="20dp"
                         android:fontFamily="@font/jetbrains_mono_bold"
+                        android:text="Investigue a vida de cidadãos para encontrar o responsável por uma série de ataques terroristas. Mas fique sabendo: as informações que você fornece têm consequências... "
                         android:textColor="@color/white"
-                        android:layout_height="wrap_content"
-                        android:text="Investigue a vida de cidadãos para encontrar o responsável por uma série de ataques terroristas. Mas fique sabendo: as informações que você fornece têm consequências... " />
+                        android:textSize="12dp" />
                 </LinearLayout>
 
                 <ImageView
                     android:id="@+id/imgJOGO"
+                    android:padding="7dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginBottom="20dp"
                     android:layout_marginTop="20dp"
                     android:layout_width="150dp"
@@ -157,8 +163,9 @@
 
                         <TextView
                             android:id="@+id/textARTIGO"
-                            android:layout_width="250dp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="243dp"
+                            android:layout_height="113dp"
+                            android:layout_marginLeft="10dp"
                             android:layout_marginTop="20dp"
                             android:fontFamily="@font/jetbrains_mono_bold"
                             android:text="George Orwell, 120 anos: por que 1984 continua tão relevante e atual?  "
@@ -171,11 +178,12 @@
 
                             <com.google.android.material.textfield.TextInputEditText
                                 android:id="@+id/textLINK"
-                                android:layout_width="match_parent"
-                                android:layout_height="70dp"
-                                android:textColorLink="@color/white"
+                                android:layout_width="234dp"
+                                android:layout_height="71dp"
+                                android:layout_marginLeft="10dp"
                                 android:fontFamily="@font/jetbrains_mono_bold"
                                 android:hint="CLIQUE AQUI"
+                                android:textColor="@color/white"
                                 android:textSize="15dp" />
                         </com.google.android.material.textfield.TextInputLayout>
 
@@ -183,7 +191,8 @@
 
                     <ImageView
                         android:id="@+id/imgARTIGO"
-                        android:layout_marginTop="25dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="10dp"
                         android:layout_marginBottom="20dp"
                         android:layout_width="wrap_content"
                         android:layout_height="210dp"

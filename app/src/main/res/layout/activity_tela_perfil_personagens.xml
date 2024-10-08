@@ -50,15 +50,16 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="258dp"
+                    android:layout_height="match_parent"
                     android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/TituloPERSO1"
                         android:layout_width="250dp"
-                        android:layout_marginLeft="10dp"
+
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/jetbrains_mono_bold"
                         android:text="WINSTON"
@@ -67,8 +68,8 @@
 
                     <TextView
                         android:id="@+id/textView3"
-                        android:layout_width="235dp"
-                        android:layout_height="248dp"
+                        android:layout_width="238dp"
+                        android:layout_height="223dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
@@ -76,12 +77,15 @@
                         android:justificationMode="inter_word"
                         android:text="É um homem de meia idade com aparência abatida. Cansado de sua rotina desgastante trabalhando para o partido, decide se rebelar do seu próprio jeito, primeiro começa a escrever um diário, comprar antiguidades e se afundar na luxúria com Júlia. Winston é um homem fraco, com dores nas costas, usava óculos e tinha desejos sexuais fortes reprimidos pelo partido, ele queria acreditar que seria parte de algo maior, por isso sente que precisa se rebelar contra o partido."
                         android:textColor="@color/white"
-                        android:textSize="12dp" />
+                        android:textSize="11dp" />
                 </LinearLayout>
 
                 <ImageView
                     android:id="@+id/imageView"
-                    android:layout_width="150dp"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:padding="7dp"
+                    android:layout_marginRight="10dp"
                     android:layout_height="270dp"
                     app:srcCompat="@drawable/winston" />
             </TableRow>
@@ -117,19 +121,23 @@
 
                     <TextView
                         android:id="@+id/textView4"
-                        android:layout_width="250dp"
-                        android:fontFamily="@font/jetbrains_mono_bold"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/white"
-                        android:layout_marginTop="10dp"
+                        android:layout_width="238dp"
+                        android:layout_height="223dp"
                         android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
-                        android:textSize="13dp"
-                        android:text="É uma jovem ruiva, com sardas no rosto e com um corpo de biotipo que chamava a atenção dos membros do partido. Acostumada a ignorar e se favorecer do sistema, Júlia se apaixona por Winston e sua nasce a vontade de se rebelar contra o partido. Ela é uma mulher esperta e sabe quando pode sair da linha e quando deve se portar bem. " />
+                        android:fontFamily="@font/jetbrains_mono_bold"
+                        android:justificationMode="inter_word"
+                        android:text="É uma jovem ruiva, com sardas no rosto e com um corpo de biotipo que chamava a atenção dos membros do partido. Acostumada a ignorar e se favorecer do sistema, Júlia se apaixona por Winston e sua nasce a vontade de se rebelar contra o partido. Ela é uma mulher esperta e sabe quando pode sair da linha e quando deve se portar bem. "
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
                 </LinearLayout>
 
                 <ImageView
                     android:id="@+id/imageView4"
+                    android:padding="7dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="270dp"
                     app:srcCompat="@drawable/julia_png" />
