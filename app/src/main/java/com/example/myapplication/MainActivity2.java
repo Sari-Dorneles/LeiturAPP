@@ -41,5 +41,14 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(reco);
             }
         });
+
+            Button btnPERSO = findViewById(R.id.btnPERSO);
+        btnPERSO.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent perso = new Intent(getApplicationContext(), telaPerfilPersonagens.class);
+                    startActivity(perso);
+                }
+        });
     }
 }
