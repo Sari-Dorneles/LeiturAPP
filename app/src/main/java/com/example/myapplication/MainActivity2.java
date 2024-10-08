@@ -14,7 +14,7 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        Button autor = findViewById(R.id.btnAutor);
+        Button autor = findViewById(R.id.btnRESENHA);
 
         autor.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,6 +49,14 @@ public class MainActivity2 extends AppCompatActivity {
                     Intent perso = new Intent(getApplicationContext(), telaPerfilPersonagens.class);
                     startActivity(perso);
                 }
+        });
+        Button btnRESENHA = findViewById(R.id.btnRESENHA);
+        btnRESENHA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent resenha = new Intent(getApplicationContext(), telaResenha.class);
+                startActivity(resenha);
+            }
         });
     }
 }

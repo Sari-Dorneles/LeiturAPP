@@ -8,9 +8,22 @@
     tools:context=".MainActivity2">
 
     <Button
-        android:id="@+id/btnAutor"
+        android:id="@+id/btnRESENHA"
         android:layout_width="207dp"
-        android:layout_height="91dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#757575"
+        android:text="Resenha"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
+
+    <Button
+        android:id="@+id/btnRESENHA"
+        android:layout_width="207dp"
+        android:layout_height="80dp"
         android:backgroundTint="#757575"
         android:text="Autor"
         android:textSize="20sp"
@@ -18,12 +31,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.845" />
+        app:layout_constraintVertical_bias="0.88" />
 
     <Button
         android:id="@+id/btnLinha"
         android:layout_width="207dp"
-        android:layout_height="91dp"
+        android:layout_height="80dp"
         android:layout_marginStart="3dp"
         android:layout_marginBottom="198dp"
         android:backgroundTint="#757575"
@@ -31,15 +44,15 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.467" />
+        app:layout_constraintVertical_bias="0.39" />
 
     <Button
         android:id="@+id/btnRECO"
         android:layout_width="207dp"
-        android:layout_height="91dp"
+        android:layout_height="80dp"
         android:layout_marginStart="3dp"
         android:backgroundTint="#757575"
         android:text="Recomendações"
@@ -49,12 +62,12 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.661" />
+        app:layout_constraintVertical_bias="0.564" />
 
     <Button
         android:id="@+id/btnPERSO"
         android:layout_width="207dp"
-        android:layout_height="91dp"
+        android:layout_height="80dp"
         android:backgroundTint="#757575"
         android:text="Personagens"
         android:textSize="20sp"
@@ -62,7 +75,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.482" />
+        app:layout_constraintVertical_bias="0.411" />
 
     <TextView
         android:id="@+id/mainTITULO"
@@ -79,6 +92,6 @@
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.136" />
+        app:layout_constraintVertical_bias="0.085" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
