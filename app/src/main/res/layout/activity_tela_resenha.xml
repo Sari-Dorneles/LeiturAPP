@@ -29,7 +29,7 @@
                 android:gravity="center_horizontal"
                 android:text="RESENHA"
                 android:textColor="#DB2CB4"
-                android:textSize="50dp" />
+                android:textSize="40dp" />
             <TextView
                 android:id="@+id/textRESENHA"
                 android:layout_width="wrap_content"
@@ -40,6 +40,7 @@
                 android:layout_margin="5dp"
                 android:padding="5dp"
                 android:text="A obra 1984 é um romance distópico que mostra uma sociedade controlada por um governo totalitário e opressor. Ao longo das décadas, o livro se estabeleceu como um dos livros mais influentes do século XX, inclusive, foi publicado depois da morte do autor. Eric Arthur Blair, ou George Orwell, foi um escritor e jornalista-britânico-inglês, nasceu na Índia Britânica e foi morar no Reino Unido para começar sua vida. Suas obras de maior destaque foram “A Revolução dos bichos (1945)” e “1984 publicado em 1949”. Infelizmente morreu precocemente de tuberculose em 1949, aos 46 anos.
+
 
 
     A história se passa numa sociedade coletivizada coordenada pela autoridade. A narrativa começa com Winston Smith (protagonista) que trabalha para o Ministério da Verdade e vive sobre o domínio sufocador do Partido, um grupo político que possui todo o poder, e de seu líder “O Grande Irmão”. O corpo social é inspecionado pela vigilância de 24 horas por dia, influenciado por falsas informações e excluído de liberdade individual.

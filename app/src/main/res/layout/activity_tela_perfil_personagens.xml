@@ -31,9 +31,9 @@
             android:layout_weight="1"
             android:fontFamily="@font/jetbrains_mono_bold"
             android:gravity="center_horizontal"
-            android:text="PERSONAGENS"
+            android:text="PERSONAGENS PRINCIPAIS"
             android:textColor="#DB2CB4"
-            android:textSize="50dp" />
+            android:textSize="40dp" />
     </TableRow>
 
         <TableRow
@@ -162,29 +162,31 @@
 
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="262dp"
                     android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/textTITULOPERSO3"
                         android:layout_width="250dp"
-                        android:layout_marginLeft="10dp"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="20dp"
                         android:fontFamily="@font/jetbrains_mono_bold"
-                        android:text="JULIA"
+                        android:text="O'Brien"
                         android:textColor="#DB2CB4"
-                        android:textSize="20dp"/>
+                        android:textSize="20dp" />
 
                     <TextView
                         android:id="@+id/textPERSO3"
-                        android:layout_width="186dp"
-                        android:layout_height="140dp"
+                        android:layout_width="238dp"
+                        android:layout_height="222dp"
                         android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
                         android:fontFamily="@font/jetbrains_mono_bold"
                         android:justificationMode="inter_word"
-                        android:text="  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                        android:text="É um homem com uma aura dominante pertencente ao alto escalão do partido. É dito como um personagem do qual Winston teme, mas ao mesmo tempo ama. Possui uma postura corpulenta, com expressão rude e ao mesmo tempo bem-humorado, também é bastante intimidador."
+                        android:textColor="@color/white"
                         android:textSize="12dp" />
 
                 </LinearLayout>
@@ -198,6 +200,63 @@
                 android:padding="7dp"
                 app:srcCompat="@drawable/brien" />
         </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/table4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/black"
+            android:gravity="center_horizontal" >
+
+            <TableRow
+                android:layout_width="512dp"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="262dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textTITULOBIG"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/jetbrains_mono_bold"
+                        android:text="Grande Irmão"
+                        android:textColor="#DB2CB4"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textBIG"
+                        android:layout_width="238dp"
+                        android:layout_height="222dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/jetbrains_mono_bold"
+                        android:justificationMode="inter_word"
+                        android:text="O governante supremo da Oceania, um herói, inventor e filósofo, foi quem trouxe o partido ao poder – O Grande Irmão Está Te Observando – Talvez ele não exista ou nunca tenha existido, mas é um símbolo de medo e controle para todos."
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgBIG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="270dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:padding="7dp"
+                    app:srcCompat="@drawable/bigbrother" />
+            </TableRow>
 
         </TableRow>
     </TableLayout>
