@@ -23,7 +23,7 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
-        Button linha = findViewById(R.id.btnLinha);
+        Button linha = findViewById(R.id.btnLINHA);
         linha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
