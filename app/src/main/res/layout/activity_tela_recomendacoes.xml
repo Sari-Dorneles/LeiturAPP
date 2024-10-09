@@ -55,13 +55,13 @@
                         <TextView
                             android:id="@+id/textFILME"
                             android:layout_width="250dp"
-                            android:layout_marginLeft="10dp"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
                             android:layout_marginTop="20dp"
                             android:fontFamily="@font/jetbrains_mono_bold"
                             android:text="Filme: 1984"
                             android:textColor="#DB2CB4"
-                            android:textSize="20dp" />
+                            android:textSize="18dp" />
 
                         <TextView
                             android:id="@+id/textFILME2"
@@ -118,7 +118,7 @@
                             android:fontFamily="@font/jetbrains_mono_bold"
                             android:text="Jogo:O Grande Irmão chegou — e é você."
                             android:textColor="#DB2CB4"
-                            android:textSize="20dp" />
+                            android:textSize="18dp" />
 
                         <TextView
                             android:id="@+id/textJOGO2"
@@ -165,13 +165,13 @@
                         <TextView
                             android:id="@+id/textARTIGO"
                             android:layout_width="243dp"
-                            android:layout_height="113dp"
+                            android:layout_height="95dp"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="20dp"
                             android:fontFamily="@font/jetbrains_mono_bold"
                             android:text="George Orwell, 120 anos: por que 1984 continua tão relevante e atual?  "
                             android:textColor="#DB2CB4"
-                            android:textSize="20dp" />
+                            android:textSize="18dp" />
 
                         <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
