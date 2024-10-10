@@ -124,4 +124,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.713" />
 
+    <TextView
+        android:id="@+id/txtPROGRAMACAO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/vt323"
+        android:text="PROGRAMAÇÃO"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="178dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
