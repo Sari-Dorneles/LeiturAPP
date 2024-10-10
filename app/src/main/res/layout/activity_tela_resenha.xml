@@ -41,7 +41,6 @@
                 android:layout_marginTop="20dp"
                 android:background="@color/black"
                 android:fontFamily="@font/jetbrains_mono_bold"
-                android:justificationMode="inter_word"
                 android:padding="16dp"
                 android:text="A obra 1984 é um romance distópico que mostra uma sociedade controlada por um governo totalitário e opressor. Ao longo das décadas, o livro se estabeleceu como um dos livros mais influentes do século XX, inclusive, foi publicado depois da morte do autor. Eric Arthur Blair, ou George Orwell, foi um escritor e jornalista-britânico-inglês, nasceu na Índia Britânica e foi morar no Reino Unido para começar sua vida. Suas obras de maior destaque foram “A Revolução dos bichos (1945)” e “1984 publicado em 1949”. Infelizmente morreu precocemente de tuberculose em 1949, aos 46 anos.
 
@@ -57,7 +56,7 @@ Durante a história, Winston se envolve com Julia, colega do Partido, e juntos i
 
 Depois de tanto tempo de tortura e detenção, Winston declara seu amor e aceita a autoridade do Partido. Ao final do livro, Winston acredita no Partido e na distorção da realidade, que retrata a vitória de um regime totalitário e opressor. "
                 android:textColor="@color/white"
-                android:textSize="18dp" />
+                android:textSize="24dp" />
 
         </LinearLayout>
     </ScrollView>
