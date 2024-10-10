@@ -5,8 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/fundo"
-    android:scaleX="1"
-    android:scaleY="1"
     tools:context=".telaPerfilPersonagens">
 
     <ScrollView
@@ -15,250 +13,245 @@
         tools:layout_editor_absoluteX="-196dp"
         tools:layout_editor_absoluteY="82dp">
 
-    <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    <TableRow
-        android:id="@+id/tabletitulo"
-        android:layout_width="372dp"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/textPERSO"
-            android:layout_width="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_weight="1"
-            android:fontFamily="@font/jetbrains_mono_bold"
-            android:gravity="center_horizontal"
-            android:text="PERSONAGENS PRINCIPAIS"
-            android:textColor="#DB2CB4"
-            android:textSize="40dp" />
-    </TableRow>
-
-        <TableRow
-            android:id="@+id/table1"
+        <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/black"
-            android:gravity="center_horizontal">
+            android:layout_height="wrap_content">
 
             <TableRow
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:id="@+id/tabletitulo"
+                android:layout_width="372dp"
+                android:layout_height="wrap_content">
 
-                <LinearLayout
-                    android:layout_width="258dp"
+                <TextView
+                    android:id="@+id/textPERS"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/jetbrains_mono_bold"
+                    android:gravity="center_horizontal"
+                    android:text="PERSONAGENS"
+                    android:textColor="#DB2CB4"
+                    android:textSize="40dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/table1"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/black"
+                android:gravity="center_horizontal">
+
+                <TableRow
+                    android:layout_width="280dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/textTITULOPERSO1"
-                        android:layout_width="250dp"
-
+                    <LinearLayout
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textTituloPers1"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/jetbrains_mono_bold"
+                            android:text="Winston"
+                            android:textColor="#DB2CB4"
+                            android:textSize="28dp" />
+
+                        <TextView
+                            android:id="@+id/textPerso1"
+                            android:layout_width="238dp"
+                            android:layout_height="171dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/jetbrains_mono_bold"
+                            android:justificationMode="inter_word"
+                            android:text="É um homem de meia idade com aparência abatida. Cansado de sua rotina desgastante trabalhando para o partido, decide se rebelar do seu próprio jeito, primeiro começa a escrever um diário, comprar antiguidades e se afundar na luxúria com Júlia. Winston é um homem fraco, com dores nas costas, usava óculos e tinha desejos sexuais fortes reprimidos pelo partido, ele queria acreditar que seria parte de algo maior, por isso sente que precisa se rebelar contra o partido. "
+                            android:textColor="@color/white"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imgPerso1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="270dp"
+                        android:layout_marginRight="10dp"
                         android:layout_marginTop="20dp"
-                        android:fontFamily="@font/jetbrains_mono_bold"
-                        android:text="WINSTON"
-                        android:textColor="#DB2CB4"
-                        android:textSize="20dp" />
+                        android:padding="7dp"
+                        app:srcCompat="@drawable/winston" />
+                </TableRow>
 
-                    <TextView
-                        android:id="@+id/textView3"
-                        android:layout_width="238dp"
-                        android:layout_height="223dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:fontFamily="@font/jetbrains_mono_bold"
-                        android:justificationMode="inter_word"
-                        android:text="Winston é um homem de meia-idade, cansado e abatido pela opressão do partido. Para se rebelar, começa a escrever um diário, compra antiguidades e se envolve com Júlia. Apesar de sua fraqueza, ele busca liberdade e um propósito maior"
-                        android:textColor="@color/white"
-                        android:textSize="11dp" />
-                </LinearLayout>
-
-                <ImageView
-                    android:id="@+id/imgWINSTON"
-                    android:layout_width="wrap_content"
-                    android:layout_height="270dp"
-                    android:layout_marginTop="4dp"
-                    android:layout_marginRight="10dp"
-                    android:padding="7dp"
-                    app:srcCompat="@drawable/winston" />
-            </TableRow>
-        </TableRow>
-        <TableRow
-            android:id="@+id/table2"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/black"
-            android:gravity="center_horizontal">
-
-            <TableRow
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textTITULOPERSO2"
-                        android:layout_width="250dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="20dp"
-                        android:fontFamily="@font/jetbrains_mono_bold"
-                        android:text="JULIA"
-                        android:textColor="#DB2CB4"
-                        android:textSize="20dp" />
-
-                    <TextView
-                        android:id="@+id/textView4"
-                        android:layout_width="238dp"
-                        android:layout_height="222dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:fontFamily="@font/jetbrains_mono_bold"
-                        android:justificationMode="inter_word"
-                        android:text="Júlia é uma jovem ruiva, com sardas e um corpo atraente, que chama a atenção dos membros do partido. Acostumada a se beneficiar do sistema, ela se apaixona por Winston, despertando seu desejo de rebeldia. Inteligente e astuta, Júlia sabe quando desafiar as regras e quando se comportar."
-                        android:textColor="@color/white"
-                        android:textSize="12dp" />
-                </LinearLayout>
-
-                <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="270dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="10dp"
-                    android:padding="7dp"
-                    app:srcCompat="@drawable/julia_png" />
 
             </TableRow>
-        </TableRow>
-
-        <TableRow
-            android:id="@+id/table3"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/black"
-            android:gravity="center_horizontal"
-            >
 
             <TableRow
-                android:layout_width="512dp"
-                android:layout_height="match_parent"
-                android:background="@color/black"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="262dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textTITULOPERSO3"
-                        android:layout_width="250dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="20dp"
-                        android:fontFamily="@font/jetbrains_mono_bold"
-                        android:text="O'Brien"
-                        android:textColor="#DB2CB4"
-                        android:textSize="20dp" />
-
-                    <TextView
-                        android:id="@+id/textPERSO3"
-                        android:layout_width="238dp"
-                        android:layout_height="222dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:fontFamily="@font/jetbrains_mono_bold"
-                        android:justificationMode="inter_word"
-                        android:text="É um homem com uma aura dominante pertencente ao alto escalão do partido. É dito como um personagem do qual Winston teme, mas ao mesmo tempo ama. Possui uma postura corpulenta, com expressão rude e ao mesmo tempo bem-humorado, também é bastante intimidador."
-                        android:textColor="@color/white"
-                        android:textSize="12dp" />
-
-                </LinearLayout>
-
-            <ImageView
-                android:id="@+id/imgBRIEN"
-                android:layout_width="wrap_content"
-                android:layout_height="270dp"
-                android:layout_marginRight="10dp"
+                android:id="@+id/table2"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
                 android:layout_marginTop="20dp"
-                android:padding="7dp"
-                app:srcCompat="@drawable/brien" />
-        </TableRow>
-
-        </TableRow>
-
-        <TableRow
-            android:id="@+id/table4"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginTop="20dp"
-            android:background="@color/black"
-            android:gravity="center_horizontal" >
-
-            <TableRow
-                android:layout_width="512dp"
-                android:layout_height="match_parent"
                 android:background="@color/black"
-                android:orientation="vertical" >
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
 
-                <LinearLayout
+                <TableRow
                     android:layout_width="wrap_content"
-                    android:layout_height="262dp"
+                    android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/textTITULOBIG"
-                        android:layout_width="250dp"
+                    <LinearLayout
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textTituloPers2"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/jetbrains_mono_bold"
+                            android:text="Julia"
+                            android:textColor="#DB2CB4"
+                            android:textSize="28dp" />
+
+                        <TextView
+                            android:id="@+id/textPerso2"
+                            android:layout_width="238dp"
+                            android:layout_height="171dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/jetbrains_mono_bold"
+                            android:justificationMode="inter_word"
+                            android:text="É uma jovem ruiva, com sardas no rosto e com um corpo de biotipo que chamava a atenção dos membros do partido. Acostumada a ignorar e se favorecer do sistema, Júlia se apaixona por Winston e sua nasce a vontade de se rebelar contra o partido. Ela é uma mulher esperta e sabe quando pode sair da linha e quando deve se portar bem. "
+                            android:textColor="@color/white"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imgPerso2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="270dp"
                         android:layout_marginTop="20dp"
-                        android:fontFamily="@font/jetbrains_mono_bold"
-                        android:text="Grande Irmão"
-                        android:textColor="#DB2CB4"
-                        android:textSize="20dp" />
-
-                    <TextView
-                        android:id="@+id/textBIG"
-                        android:layout_width="238dp"
-                        android:layout_height="222dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:fontFamily="@font/jetbrains_mono_bold"
-                        android:justificationMode="inter_word"
-                        android:text="O governante supremo da Oceania, um herói, inventor e filósofo, foi quem trouxe o partido ao poder – O Grande Irmão Está Te Observando – Talvez ele não exista ou nunca tenha existido, mas é um símbolo de medo e controle para todos."
-                        android:textColor="@color/white"
-                        android:textSize="12dp" />
-
-                </LinearLayout>
-
-                <ImageView
-                    android:id="@+id/imgBIG"
-                    android:layout_width="wrap_content"
-                    android:layout_height="270dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginTop="20dp"
-                    android:padding="7dp"
-                    app:srcCompat="@drawable/bigbrother" />
+                        android:layout_marginRight="10dp"
+                        android:padding="7dp"
+                        app:srcCompat="@drawable/julia_png" />
+                </TableRow>
             </TableRow>
 
-        </TableRow>
-    </TableLayout>
+            <TableRow
+                android:id="@+id/table3"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/black"
+                android:gravity="center_horizontal">
+
+                <TableRow
+                    android:layout_width="280dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textTituloPers3"
+                            android:layout_width="243dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/jetbrains_mono_bold"
+                            android:text="O'Brien"
+                            android:textColor="#DB2CB4"
+                            android:textSize="28dp" />
+                        <TextView
+                            android:id="@+id/textPerso3"
+                            android:layout_width="238dp"
+                            android:layout_height="171dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/jetbrains_mono_bold"
+                            android:justificationMode="inter_word"
+                            android:text="É um homem com uma aura dominante pertencente ao alto escalão do partido. É dito como um personagem do qual Winston teme, mas ao mesmo tempo ama. Possui uma postura corpulenta, com expressão rude e ao mesmo tempo bem-humorado, também é bastante intimidador."
+                            android:textColor="@color/white"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imgPerso3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="270dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"
+                        android:padding="7dp"
+                        app:srcCompat="@drawable/brien" />
+
+                </TableRow>
+            </TableRow>
+            <TableRow
+                android:id="@+id/table4"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/black"
+                android:gravity="center_horizontal">
+
+                <TableRow
+                    android:layout_width="280dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textTituloPers4"
+                            android:layout_width="243dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/jetbrains_mono_bold"
+                            android:text="Grande Irmão"
+                            android:textColor="#DB2CB4"
+                            android:textSize="28dp" />
+                        <TextView
+                            android:id="@+id/textPerso4"
+                            android:layout_width="238dp"
+                            android:layout_height="171dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:fontFamily="@font/jetbrains_mono_bold"
+                            android:justificationMode="inter_word"
+                            android:text="O governante supremo da Oceania, um herói, inventor e filósofo, foi quem trouxe o partido ao poder – O Grande Irmão Está Te Observando – Talvez ele não exista ou nunca tenha existido, mas é um símbolo de medo e controle para todos. "
+                            android:textColor="@color/white"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imgPerso4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="270dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"
+                        android:padding="7dp"
+                        app:srcCompat="@drawable/bigbrother" />
+
+                </TableRow>
+            </TableRow>
+        </TableLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
