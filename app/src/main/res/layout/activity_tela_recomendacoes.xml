@@ -74,7 +74,7 @@
                             android:justificationMode="inter_word"
                             android:text="O filme retrata uma sociedade governada por um Estado Totalitário, que controla completamente os âmbitos sociais, a história e o passado de seu povo, também desenvolve um novo idioma. Além disso, os sujeitos que se opõem ao regime, são torturados e expostos a lavagem cerebral. "
                             android:textColor="@color/white"
-                            android:textSize="12dp" />
+                            android:textSize="14dp" />
                     </LinearLayout>
 
                     <ImageView
@@ -131,7 +131,7 @@
                             android:justificationMode="inter_word"
                             android:text="Investigue a vida de cidadãos para encontrar o responsável por uma série de ataques terroristas. Mas fique sabendo: as informações que você fornece têm consequências... "
                             android:textColor="@color/white"
-                            android:textSize="12dp" />
+                            android:textSize="14dp" />
                     </LinearLayout>
 
                     <ImageView
@@ -184,7 +184,8 @@
                                 android:layout_marginLeft="10dp"
                                 android:fontFamily="@font/jetbrains_mono_bold"
                                 android:hint="CLIQUE AQUI"
-                                android:textColor="@color/white"
+                                android:textColorLink="@color/white"
+                                android:textColorHint="@color/white"
                                 android:textSize="15dp" />
                         </com.google.android.material.textfield.TextInputLayout>
 

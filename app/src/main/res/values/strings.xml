@@ -3,15 +3,13 @@
     <string name="app_name">LeiturApp</string>
     <string name="textBIOAstr">
         \n
-        Eric Arthur Blair, mais conhecido pelo pseudônimo de George Orwell, foi um jornalista, escritor e ensaísta político inglês, nascido na índia Britânica.
+        Eric Arthur Blair, conhecido como George Orwell, foi um escritor e jornalista inglês, nascido na Índia Britânica. Sua obra destaca-se por sua crítica ao totalitarismo, humor afiado e uma profunda consciência social. Considerado um dos grandes cronistas do século XX, Orwell produziu ficção, resenhas e artigos.
         \n
-        Sua obra é marcada por uma inteligência perspicaz e bem-humorada, uma consciência profunda das injustiças sociais, uma intensa oposição ao totalitarismo e uma paixão pela clareza da escrita.
+        Ele estudou em instituições renomadas e, após trabalhar na Polícia Imperial Indiana, decidiu se dedicar à literatura em 1927. Seu primeiro livro, "Na pior em Paris e Londres", foi publicado em 1933. Mais tarde, trabalhou em uma livraria, onde conheceu Eileen O’Shaughnessy, sua esposa. Em 1936, viveu com mineiros para escrever "A caminho de Wigan" e lutou na Guerra Civil Espanhola em 1937.
         \n
-        Considerando-o talvez o melhor cronista da cultura inglesa do século XX, Orwell dedicou-se a escrever resenhas, ficção, artigos jornalísticos polêmicos, críticas literárias e poesia.
+        Sua obra mais famosa, "1984", foi lançada em 1949, mas Orwell faleceu em 21 de janeiro de 1950, sem viver o sucesso do livro.
         \n
-        O início de sua carreira começou quando foi estudar em St. Cyprian’s School, em Eastbourne, e, a partir de 1917, em Eton, um famoso colégio britânico. Em 1922, começou a trabalhar na Polícia Imperial Indiana, mas, em 1927, abandonou o emprego para cultivar a literatura. No ano seguinte, foi para Paris, onde viveu cerca de um ano e meio, então no ano de 1933, publicou seu primeiro livro — Na pior em Paris e Londres. No fim de 1934, começou a trabalhar em uma livraria no bairro Hampstead, em Londres. Nessa cidade, ele conheceu Eileen O’Shaughnessy, com quem se casou. Em 1936, decidiu viver com os mineiros da cidade de Wigan para a escrita de sua obra, publicada no ano seguinte - A caminho de Wigan. No final de 1937, foi para a Espanha e lutou, durante seis meses, na Guerra Civil Espanhola, ao lado dos republicanos e contra o ditador Francisco Franco.
-        \n
-        A obra mais famosa de Orwell, que seria o romance 1984, só foi publicada em 1949. No entanto, o autor não pôde presenciar o grande sucesso do seu livro nos anos que seguiram à sua publicação. Devido à tuberculose, o romancista morreu em 21 de janeiro de 1950, em Londres, logo depois de se casar com Sonia Brownell.
+
     </string>
 
     <string name="textOBRAstr">
@@ -34,22 +32,6 @@
         \n
         1984 (1949)
     </string>
-    <string name="resenha">
-        A obra 1984 é um romance distópico que mostra uma sociedade controlada por um governo totalitário e opressor. Ao longo das décadas, o livro se estabeleceu como um dos livros mais influentes do século XX, inclusive, foi publicado depois da morte do autor. Eric Arthur Blair, ou George Orwell, foi um escritor e jornalista-britânico-inglês, nasceu na Índia Britânica e foi morar no Reino Unido para começar sua vida. Suas obras de maior destaque foram “A Revolução dos bichos (1945)” e “1984 publicado em 1949”. Infelizmente morreu precocemente de tuberculose em 1949, aos 46 anos.
-        \n
-        A história se passa numa sociedade coletivizada coordenada pela autoridade. A narrativa começa com Winston Smith (protagonista) que trabalha para o Ministério da Verdade e vive sobre o domínio sufocador do Partido, um grupo político que possui todo o poder, e de seu líder “O Grande Irmão”. O corpo social é inspecionado pela vigilância de 24 horas por dia, influenciado por falsas informações e excluído de liberdade individual.
-        \n
-        O protagonista Winston mora na fictícia Oceania, mais precisamente em Londres, como dito anteriormente, ele trabalha no Ministério da Verdade, responsável por alterar a documentos históricos aos modos do Partido. Até que em um certo momento começa a se questionar sobre a opressão sofrida pela sociedade.
-        \n
-        O controle da população é feito principalmente por meio do controle do pensamento, a Polícia do Pensamento é responsável por reprimir e monitorar as ideias contrárias ao Partido. É empregado técnicas de tortura e de lavagem cerebral para converter as pessoas a favor do Partido.
-        \n
-        De forma resumida, a vigilância é feita por meio das “teletelas”, ou melhor, televisões, que são dispositivos de propaganda que possuem câmeras. O governo influencia a população com uma linguagem manipulada, com o objetivo de reduzir a capacidade de expressar pensamentos transtornados ou rebeldes.
-        \n
-        Durante a história, Winston se envolve com Julia, colega do Partido, e juntos iniciam uma aventura de ideias de liberdade e revolucionárias. Em um certo dia, Winston conheceu O’Brien, e se convenceu de que ele possuía os meios ideais rebeldes, porém, mais tarde Winston e Julia são surpreendidos.
-        \n
-        Depois de tanto tempo de tortura e detenção, Winston declara seu amor e aceita a autoridade do Partido. Ao final do livro, Winston acredita no Partido e na distorção da realidade, que retrata a vitória de um regime totalitário e opressor.
-        \n
 
-        </string>
 
 </resources>

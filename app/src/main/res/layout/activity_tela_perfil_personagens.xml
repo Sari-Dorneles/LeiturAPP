@@ -66,13 +66,13 @@
                         <TextView
                             android:id="@+id/textPerso1"
                             android:layout_width="238dp"
-                            android:layout_height="171dp"
+                            android:layout_height="203dp"
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="10dp"
                             android:layout_marginBottom="20dp"
                             android:fontFamily="@font/jetbrains_mono_bold"
                             android:justificationMode="inter_word"
-                            android:text="É um homem de meia idade com aparência abatida. Cansado de sua rotina desgastante trabalhando para o partido, decide se rebelar do seu próprio jeito, primeiro começa a escrever um diário, comprar antiguidades e se afundar na luxúria com Júlia. Winston é um homem fraco, com dores nas costas, usava óculos e tinha desejos sexuais fortes reprimidos pelo partido, ele queria acreditar que seria parte de algo maior, por isso sente que precisa se rebelar contra o partido. "
+                            android:text=" Winston é um homem de meia-idade com aparência desgastada, cansado de sua rotina sob o controle do partido. Para se rebelar, começa a escrever um diário, compra antiguidades e se entrega à luxúria com Júlia. Ele é fisicamente fraco, sofre de dores nas costas, usa óculos e tem desejos sexuais reprimidos. Sente que precisa se rebelar para fazer parte de algo maior."
                             android:textColor="@color/white"
                             android:textSize="12dp" />
                     </LinearLayout>
@@ -81,8 +81,8 @@
                         android:id="@+id/imgPerso1"
                         android:layout_width="wrap_content"
                         android:layout_height="270dp"
-                        android:layout_marginRight="10dp"
                         android:layout_marginTop="20dp"
+                        android:layout_marginRight="10dp"
                         android:padding="7dp"
                         app:srcCompat="@drawable/winston" />
                 </TableRow>

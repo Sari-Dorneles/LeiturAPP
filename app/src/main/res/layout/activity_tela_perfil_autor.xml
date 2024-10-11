@@ -67,6 +67,7 @@
 
                 <ImageView
                     android:id="@+id/imgGO"
+                    android:layout_marginBottom="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="379dp"
                     app:srcCompat="@drawable/orwell_projeto_final" />
@@ -92,7 +93,7 @@
                     android:layout_weight="1"
                     android:fontFamily="@font/jetbrains_mono_bold"
                     android:text="BIOGRAFIA"
-                    android:textColor="#FFFFFF"
+                    android:textColor="@color/white"
                     android:textSize="30dp" />
 
                 <ImageButton
@@ -118,6 +119,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginLeft="24dp"
                     android:textColor="@color/white"
+                    android:textSize="24dp"
                     android:fontFamily="@font/jetbrains_mono_bold"
                     android:text="TextView"
                     android:visibility="invisible" />
@@ -166,6 +168,7 @@
                     android:layout_marginLeft="24dp"
                     android:fontFamily="@font/jetbrains_mono_bold"
                     android:text="TextView"
+                    android:textSize="24dp"
                     android:textColor="@color/white"
                     android:visibility="invisible" />
             </TableRow>
