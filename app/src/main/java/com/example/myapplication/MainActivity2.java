@@ -17,7 +17,7 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         // Configuração do VideoView para reproduzir o vídeo da pasta raw
-        VideoView videoView = findViewById(R.id.videoView);
+        VideoView videoView = findViewById(R.id.videoPROGRAMACAO);
 
         // Carregando o vídeo da pasta res/raw
         Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.video_sem_ar); // Substitua 'meu_video' pelo nome do seu arquivo de vídeo
