@@ -113,6 +113,7 @@ public class telaLinhaTempo extends AppCompatActivity {
                         "Ministério do Amor mantinha a lei e a ordem; \n" +
                         "\n" +
                         "Ministério da Pujança cuidava dos assuntos econômicos.")
+                
                 .setPositiveButton("Sair", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         dialog.dismiss();
