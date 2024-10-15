@@ -79,5 +79,12 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(resenha);
             }
         });
+        Button btnSAIR = findViewById(R.id.btnSAIR);
+        btnSAIR.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
     }
 }

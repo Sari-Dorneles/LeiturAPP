@@ -134,7 +134,7 @@
         app:layout_constraintVertical_bias="0.728" />
 
     <Button
-        android:id="@+id/btnMAIN"
+        android:id="@+id/btnSAIR"
         android:layout_width="41dp"
         android:layout_height="43dp"
         android:backgroundTint="#00FFFFFF"
@@ -250,21 +250,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.408" />
-
-    <Button
-        android:id="@+id/btnCANAL"
-        android:layout_width="42dp"
-        android:layout_height="31dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="277dp"
-        tools:layout_editor_absoluteY="576dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="42dp"
-        android:layout_height="29dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="278dp"
-        tools:layout_editor_absoluteY="617dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
