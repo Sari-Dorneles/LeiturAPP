@@ -17,6 +17,14 @@ public class telaPerfilAutor extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_perfil_autor);
+        ImageButton voltar = findViewById(R.id.btnVoltar);
+        voltar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
         TextView textAUTOR1 = findViewById(R.id.textAUTOR1);
         TextView textAUTOR2 = findViewById(R.id.textAUTOR2);
         TextView textBIOA = findViewById(R.id.textBIOA);
