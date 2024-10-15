@@ -21,8 +21,7 @@ public class telaLinhaTempo extends AppCompatActivity {
         voltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent voltar = new Intent(getApplicationContext(), MainActivity2.class);
-                startActivity(voltar);
+                finish();
             }
         });
 
