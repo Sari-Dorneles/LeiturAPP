@@ -43,9 +43,8 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(autor);
             }
         });
-
-        Button linha = findViewById(R.id.btnLINHA);
-        linha.setOnClickListener(new View.OnClickListener() {
+        Button btnLINHA = findViewById(R.id.btnLINHA);
+        btnLINHA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent linha = new Intent(getApplicationContext(), telaLinhaTempo.class);
