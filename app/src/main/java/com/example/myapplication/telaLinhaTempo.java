@@ -17,13 +17,6 @@ public class telaLinhaTempo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_linha_tempo);
-        ImageButton voltar = findViewById(R.id.btnVoltar);
-        voltar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
 
         Button btnATO1 = findViewById(R.id.btnATO1);
         btnATO1.setOnClickListener(new View.OnClickListener() {
