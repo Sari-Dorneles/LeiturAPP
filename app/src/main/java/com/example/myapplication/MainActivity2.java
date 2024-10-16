@@ -24,7 +24,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         VideoView videoView = findViewById(R.id.videoPROGRAMACAO);
 
-        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.video_sem_ar); // Substitua 'meu_video' pelo nome do seu arquivo de vídeo
+        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.video_sem_ar);
 
         videoView.setVideoURI(uri);
 
