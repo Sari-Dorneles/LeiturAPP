@@ -8,24 +8,26 @@ import android.widget.Button;
 import android.widget.VideoView;
 import android.media.MediaPlayer;
 import android.net.Uri;
+import android.media.AudioManager;
+import android.widget.SeekBar;
+import android.content.Context;
 
 public class MainActivity2 extends AppCompatActivity {
+
+    private AudioManager audioManager;
+    private SeekBar volumeSeekBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        // Configuração do VideoView para reproduzir o vídeo da pasta raw
         VideoView videoView = findViewById(R.id.videoPROGRAMACAO);
 
-        // Carregando o vídeo da pasta res/raw
         Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.video_sem_ar); // Substitua 'meu_video' pelo nome do seu arquivo de vídeo
 
-        // Configurando o VideoView para a URI do recurso local
         videoView.setVideoURI(uri);
 
-        // Configurar o listener para quando o vídeo estiver preparado
         videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
             @Override
             public void onPrepared(MediaPlayer mp) {
@@ -34,7 +36,6 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
-        // Configuração dos botões existentes
         Button autor = findViewById(R.id.btnAUTOR);
         autor.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,7 +44,6 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(autor);
             }
         });
-
         Button linha = findViewById(R.id.btnLINHA);
         linha.setOnClickListener(new View.OnClickListener() {
             @Override
