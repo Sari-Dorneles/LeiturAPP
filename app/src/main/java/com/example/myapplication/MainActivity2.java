@@ -14,9 +14,6 @@ import android.content.Context;
 
 public class MainActivity2 extends AppCompatActivity {
 
-    private AudioManager audioManager;
-    private SeekBar volumeSeekBar;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
